@@ -1,10 +1,17 @@
-# Atomicals-js 技术文档
-![b5de624cd0330253b80f4c2544d4f0d0.png](../_resources/b5de624cd0330253b80f4c2544d4f0d0.png)
-## 目录
-1. [项目概述](#项目概述)
-2. [核心组件](#核心组件)
-3.  [开发环境配置](#开发环境配置)
-4.  [常用命令指南](#常用命令指南)
+# Atomicals-js 文档中心
+![systemArchitecture.png](_resources/systemArchitecture.png)
+
+### 核心文档
+- [钱包管理命令](./atomical-js/WalletCommands/钱包管理命令.md): 
+管理用户的钱包，包括创建、导入和查看钱包信息。
+- [铸造命令](./atomical-js/MintingCommands/铸造命令.md): 
+用于创建和发行新的数字资产，如代币和NFT。
+- [转账命令](./atomical-js/TransferCommands/转账命令.md): 
+处理资产的转移，包括FT和NFT的转账操作。
+- [数据管理命令](./atomical-js/DataManagementCommands/数据管理命令.md): 
+处理数据的创建、读取、更新和删除（CRUD）操作。
+- [查询命令](./atomical-js/QueryCommands/查询命令.md): 
+执行针对区块链数据的查询，返回相关信息。
 
 ## 项目概述
 
@@ -285,4 +292,3 @@ b) 创建第一个NFT
 # 铸造NFT
 yarn cli mint-nft config.json
 ```
-
