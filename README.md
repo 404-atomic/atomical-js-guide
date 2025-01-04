@@ -21,7 +21,7 @@ Atomicals-js 是一个用于在比特币网络上创建和管理数字资产的 
 核心依赖包含：
 
 ```json
-{
+{ 
   "dependencies": {
     "bitcoinjs-lib": "^6.1.0",    // 比特币操作库
     "bip32": "^3.1.0",            // 密钥派生
