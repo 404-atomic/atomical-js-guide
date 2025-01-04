@@ -1,5 +1,5 @@
 # Atomicals-js 文档中心
-![systemArchitecture.png](commands/_resources/systemArchitecture.png)
+![Atomical-js代码库结构图](Atomical-js代码库结构图.png)
 
 ### 核心文档
 [基础架构](./nav.md)
