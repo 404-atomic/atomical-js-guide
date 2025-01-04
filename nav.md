@@ -124,25 +124,25 @@
     └── list-command.ts                                      // 列表命令
 ```
 
-- [核心设施](./atomical-js/CoreInfrastructure/核心设施.md):
+- [核心设施](./commands/CoreInfrastructure/核心设施.md):
 包含底层工具和基础组件，如交易构建、脚本处理、签名验证等核心功能的实现。
-- [钱包管理命令](./atomical-js/WalletCommands/钱包管理命令.md): 
+- [钱包管理命令](./commands/WalletCommands/钱包管理命令.md): 
 创建和管理钱包，包括密钥生成、地址管理、余额查询和UTXO管理等功能。
-- [铸造命令](./atomical-js/MintingCommands/铸造命令.md): 
+- [铸造命令](./commands/MintingCommands/铸造命令.md): 
 支持多种数字资产的铸造，包括NFT、FT、Container、Realm、Subrealm等，每种资产类型都有其独特的铸造流程和规则。
-- [转账命令](./atomical-js/TransferCommands/转账命令.md): 
+- [转账命令](./commands/TransferCommands/转账命令.md): 
 处理各类数字资产的转移操作，支持单笔和批量转账，包含UTXO选择、交易构建和签名等完整流程。
-- [查询命令](./atomical-js/QueryCommands/查询命令.md): 
+- [查询命令](./commands/QueryCommands/查询命令.md): 
 提供丰富的查询接口，支持按地址、交易ID、资产ID等多维度查询，包括历史记录、状态和元数据等信息。
-- [数据管理命令](./atomical-js/DataManagementCommands/数据管理命令.md): 
+- [数据管理命令](./commands/DataManagementCommands/数据管理命令.md): 
 提供数据的创建、读取、更新和删除功能，支持多种数据格式，包括JSON、文本和二进制数据的处理。
-- [领域管理命令](./atomical-js/RealmManagement/领域管理命令.md):
+- [领域管理命令](./commands/RealmManagement/领域管理命令.md):
 处理领域（Realm）相关的操作，包括领域创建、子领域管理、规则设置等功能。
-- [交易广播命令](./atomical-js/TransactionBroadcasting/交易广播命令.md):
+- [交易广播命令](./commands/TransactionBroadcasting/交易广播命令.md):
 负责交易的广播、确认和状态查询，支持交易解码和验证功能。
-- [交互操作命令](./atomical-js/InteractiveOperations/交互操作命令.md):
+- [交互操作命令](./commands/InteractiveOperations/交互操作命令.md):
 提供一系列交互式操作，如颜色定制、删除、事件发送、封存等高级功能。
-- [实用工具命令](./atomical-js/UtilityCommands/实用工具命令.md):
+- [实用工具命令](./commands/UtilityCommands/实用工具命令.md):
 包含下载、预览渲染、解析、服务器状态查询等辅助工具功能。
 
 ## utils
