@@ -124,25 +124,25 @@
     └── list-command.ts                                      // 列表命令
 ```
 
-- [核心设施](./commands/CoreInfrastructure/核心设施.md):
+- [核心设施](./commands/CoreInfrastructure.md):
 包含底层工具和基础组件，如交易构建、脚本处理、签名验证等核心功能的实现。
-- [钱包管理命令](./commands/WalletCommands/钱包管理命令.md): 
+- [钱包管理命令](./commands/WalletCommands.md): 
 创建和管理钱包，包括密钥生成、地址管理、余额查询和UTXO管理等功能。
-- [铸造命令](./commands/MintingCommands/铸造命令.md): 
+- [铸造命令](./commands/MintingCommands.md): 
 支持多种数字资产的铸造，包括NFT、FT、Container、Realm、Subrealm等，每种资产类型都有其独特的铸造流程和规则。
-- [转账命令](./commands/TransferCommands/转账命令.md): 
+- [转账命令](./commands/TransferCommands.md): 
 处理各类数字资产的转移操作，支持单笔和批量转账，包含UTXO选择、交易构建和签名等完整流程。
-- [查询命令](./commands/QueryCommands/查询命令.md): 
+- [查询命令](./commands/QueryCommands.md): 
 提供丰富的查询接口，支持按地址、交易ID、资产ID等多维度查询，包括历史记录、状态和元数据等信息。
-- [数据管理命令](./commands/DataManagementCommands/数据管理命令.md): 
+- [数据管理命令](./commands/DataManagementCommands.md): 
 提供数据的创建、读取、更新和删除功能，支持多种数据格式，包括JSON、文本和二进制数据的处理。
-- [领域管理命令](./commands/RealmManagement/领域管理命令.md):
+- [领域管理命令](./commands/RealmManagement.md):
 处理领域（Realm）相关的操作，包括领域创建、子领域管理、规则设置等功能。
-- [交易广播命令](./commands/TransactionBroadcasting/交易广播命令.md):
+- [交易广播命令](./commands/TransactionBroadcasting.md):
 负责交易的广播、确认和状态查询，支持交易解码和验证功能。
-- [交互操作命令](./commands/InteractiveOperations/交互操作命令.md):
+- [交互操作命令](./commands/InteractiveOperations.md):
 提供一系列交互式操作，如颜色定制、删除、事件发送、封存等高级功能。
-- [实用工具命令](./commands/UtilityCommands/实用工具命令.md):
+- [实用工具命令](./commands/UtilityCommands.md):
 包含下载、预览渲染、解析、服务器状态查询等辅助工具功能。
 
 ## utils
@@ -181,17 +181,17 @@
     └── utils.ts                      // 通用工具函数
 ```
 
-- [地址和密钥管理工具](./utils/AddressAndKeyManagement/地址和密钥管理.md):
-提供处理地址、密钥对等相关的辅助函数，包括路径管理、密钥生成和助记词处理等功能。
-- [Atomicals核心工具](./utils/AtomicalsCore/Atomicals核心工具.md):
-提供Atomicals协议的核心工具，包括格式化、操作构建和验证等基础功能。
-- [钱包管理工具](./utils/Wallet Management/钱包管理工具.md):
-处理钱包存储、路径解析和UTXO选择等功能，优化交易输入选择策略。
-- [挖矿工具](./utils/Mining/挖矿工具.md):
-实现了Atomicals协议的挖矿功能，包括工作量证明算法和挖矿策略。
-- [文件和配置工具](./utils/FileAndConfiguration/文件和配置工具.md):
-处理文件操作、配置注入和CLI输入验证等功能。
-- [输入输出工具](./utils/InputOutput/输入输出工具.md):
-提供CLI提示工具和输入验证功能，优化用户交互体验。
-- [通用工具](./utils/GeneralUtilities/通用工具.md):
+- [钱包管理工具](./utils/WalletManagement.md):
+提供处理钱包存储、路径解析和UTXO选择等功能，优化交易输入选择策略。
+- [通用工具](./utils/GeneralUtilities.md):
 提供通用的辅助函数，包括文件处理、路径管理和CLI输入验证等功能。
+- [Atomicals核心工具](./utils/AtomicalsCore.md):
+提供Atomicals协议的核心工具，包括格式化、操作构建和验证等基础功能。
+- [文件和配置工具](./utils/FileAndConfiguration.md):
+处理文件操作、配置注入和CLI输入验证等功能。
+- [输入输出工具](./utils/InputAndOutput.md):
+提供CLI提示工具和输入验证功能，优化用户交互体验。
+- [地址和密钥管理](./utils/AddressAndKeyManagement.md):
+提供处理地址、密钥对等相关的辅助函数，包括路径管理、密钥生成和助记词处理等功能。
+- [挖矿工具](./utils/Mining.md):
+实现了Atomicals协议的挖矿功能，包括工作量证明算法和挖矿策略。

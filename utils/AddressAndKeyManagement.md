@@ -28,7 +28,7 @@
 ## 基础概念
 比特币地址有多种格式，每种都有其特定用途和特点。这个工具包帮助你处理不同类型的地址转换和验证。
 
-![address-helpers](../_resources/address-helpers.png)
+![address-helpers](/images/address-helpers.png)
 
 ## 主要功能
 1. 地址类型检测
@@ -96,7 +96,7 @@ console.log("脚本哈希:", scriptInfo.scripthash);
 # address-keypair-path.ts
 ## 功能概述
 这个模块帮助你从助记词生成Taproot地址和密钥对。它实现了BIP39助记词、BIP32路径派生，最后生成Taproot（P2TR）地址。
-![address-keypair-path](../_resources/address-keypair-path.png)
+![address-keypair-path](/images/address-keypair-path.png)
 
 ## 主要函数分析
 1. getExtendTaprootAddressKeypairPath 函数
@@ -142,7 +142,7 @@ export const getKeypairInfo = (childNode: any): KeyPairInfo => {
 # create-key-pair.ts
 ## 功能概述
 这个模块提供了创建新的密钥对的功能，包括生成随机密钥对和从助记词恢复密钥对等。
-![create-key-pair](../_resources/create-key-pair.png)
+![create-key-pair](/images/create-key-pair.png)
 
 功能详解
 1. 创建密钥对的主函数

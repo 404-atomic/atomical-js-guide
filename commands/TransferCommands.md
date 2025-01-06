@@ -19,7 +19,7 @@
 该命令用于交互式转移FT（同质化代币）。它提供了一个交互式界面，允许用户选择具体的UTXO进行转账，并支持多接收地址的转账操作。
 ## 主要步骤
 
-![transfer-interactive-ft-command](../_resources/transfer-interactive-ft-command.png)
+![transfer-interactive-ft-command](/images/transfer-interactive-ft-command.png)
 
 1. 代币验证和初始化
 ```typescript
@@ -131,7 +131,7 @@ try {
 ## 功能概述
 该命令用于安全转移NFT（非同质化代币）到新地址。它包含完整的安全检查机制，确保NFT转移过程的安全性和正确性。
 
-![transfer-interactive-nft-command](../_resources/transfer-interactive-nft-command.png)
+![transfer-interactive-nft-command](/images/transfer-interactive-nft-command.png)
 
 ## 主要步骤
 1. NFT验证和地址检查
@@ -242,7 +242,7 @@ try {
 }
 ```
 # NFT与FT转账流程对比
-![NFT-FT-Transfer-Process-Comparison](../_resources/NFT-FT-Transfer-Process-Comparison.png)
+![NFT-FT-Transfer-Process-Comparison](/images/NFT-FT-Transfer-Process-Comparison.png)
 
 UTXO处理方式
 - NFT：
@@ -266,7 +266,7 @@ const chosenSum = selectedUtxos.reduce((accum, item) =>
 ## 功能概述
 这个命令用于交互式管理和转移UTXO（未花费的交易输出），它提供了一个用户友好的界面，让开发者可以选择特定的UTXO进行转账操作，同时确保Atomicals资产的安全。
 
-![transfer-interactive-utxos-command](../_resources/transfer-interactive-utxos-command.png)
+![transfer-interactive-utxos-command](/images/transfer-interactive-utxos-command.png)
 
 ## 主要步骤
 1. UTXO扫描和余额检查
@@ -405,7 +405,7 @@ try {
 ## 功能概述
 这是一个灵活的交互式转账构建器，支持同时处理普通UTXO和Atomicals资产。它的特点是提供更多的自定义选项，包括OP_RETURN输出和复杂的转账场景。
 
-![transfer-interactive-builder-command](../_resources/transfer-interactive-builder-command.png)
+![transfer-interactive-builder-command](/images/transfer-interactive-builder-command.png)
 
 ## 主要步骤
 1. 初始化构建器
@@ -510,6 +510,3 @@ try {
   console.error('交易构建失败:', error);
 }
 ```
-
-
-

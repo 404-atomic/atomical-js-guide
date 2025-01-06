@@ -19,7 +19,7 @@
 # mint-interactive-nft-command.ts
 ## 功能概述
 `MintInteractiveNftCommand` 类专门用于铸造非同质化代币(NFT)。本命令处理整个NFT的创建过程，包括数据验证、交易构建和网络广播。
-![mint-interactive-nft-command.png](../_resources/mint-interactive-nft-command.png)
+![mint-interactive-nft-command](/images/mint-interactive-nft-command.png)
 ## 主要步骤
 
 1. NFT数据构建
@@ -186,7 +186,7 @@ try {
 ```
 
 ## NFT与FT铸造流程对比
-![4c4acfa15ad68ea66611069e81eca58d.png](../_resources/4c4acfa15ad68ea66611069e81eca58d.png)
+![4c4acfa15ad68ea66611069e81eca58d](/images/4c4acfa15ad68ea66611069e81eca58d.png)
 NFT特有的处理
 ```typescript
 // NFT需要处理文件数据
@@ -219,7 +219,7 @@ const commonConfig = {
 ## 功能概述
 Realm（领域）是一种特殊的NFT，用于创建唯一的命名空间或域名。它以 + 符号开头，类似于域名系统。
 
-![mint-interactive-realm-command.png](../_resources/mint-interactive-realm-command.png)
+![mint-interactive-realm-command](/images/mint-interactive-realm-command.png)
 
 ## 主要步骤
 
@@ -336,7 +336,7 @@ try {
 ## 功能概述
 Container（容器）是一种特殊的NFT集合，用于组织和管理多个相关的NFT资产。它以 # 符号开头，作为NFT的集合标识符。
 
-![mint-interactive-container-command](../_resources/mint-interactive-container-command.png)
+![mint-interactive-container-command](/images/mint-interactive-container-command.png)
 
 ## 主要步骤
 1. 名称处理和基础验证
@@ -450,7 +450,7 @@ try {
 ## 功能概述
 DFT（去中心化代币）是一种特殊的代币类型，支持去中心化铸造机制。它以 $ 符号开头，允许符合条件的用户在特定规则下进行铸造。
 
-![mint-interactive-dft-command](../_resources/mint-interactive-dft-command.png)
+![mint-interactive-dft-command](/images/mint-interactive-dft-command.png)
 
 ## 主要步骤
 1.初始化和参数验证

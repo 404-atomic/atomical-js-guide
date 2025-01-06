@@ -19,7 +19,7 @@
 
 # wallet-init-command.ts
 ## 功能概述
-![wallet-init-command.png](../_resources/wallet-init-command.png)
+![wallet-init-command](/images/wallet-init-command.png)
 
 1. 钱包存在性检查：
 ```typescript
@@ -91,7 +91,7 @@ try {
 `wallet-import-command.ts` 实现了比特币钱包私钥导入功能，允许用户通过 WIF（Wallet Import Format）格式导入已存在的私钥，并为其分配别名。
 
 ## 主要步骤
-1. 钱包检查:
+1. 钱包检查：
 
 ```typescript
 async walletExists() {
@@ -100,7 +100,7 @@ async walletExists() {
     }
 }
 ```
-2. 导入过程:
+2. 导入过程：
 
 ```typescript
 // 读取现有钱包文件
@@ -117,7 +117,7 @@ await jsonFileWriter(
     walletFileData
 );
 ```
-3. 密钥处理:
+3. 密钥处理：
 
 ```typescript
 // 从WIF创建密钥对
@@ -147,7 +147,7 @@ try {
 ```
 # wallet-info-command.ts
 ## 功能概述
-![wallet-info-command.png](../_resources/wallet-info-command.png)
+![wallet-info-command](/images/wallet-info-command.png)
 ## 主要步骤
 1. 余额查询功能 (Balance Query)：
 ```typescript
@@ -212,7 +212,7 @@ console.log(result.data);
 
 # wallet-phrase-decode-command.ts
 ## 功能概述
-![wallet-phrase-decode-command.png](../_resources/wallet-phrase-decode-command.png)
+![wallet-phrase-decode-command](/images/wallet-phrase-decode-command.png)
 
 ```typescript
 export class WalletPhraseDecodeCommand implements CommandInterface {

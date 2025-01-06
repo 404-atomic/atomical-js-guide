@@ -23,7 +23,7 @@
   - FT 拆分操作
 
 ## 命令详解
-![交互操作命令](../_resources/交互操作命令.png)
+![交互操作命令](/images/交互操作命令.png)
 
 # custom-color-interactive-command.ts
 
@@ -260,5 +260,3 @@ const atomicalBuilder = new AtomicalOperationBuilder({
 ```
 - 计算输出金额
 - 构建拆分交易
-
-

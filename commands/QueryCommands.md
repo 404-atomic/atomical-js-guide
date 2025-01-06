@@ -17,7 +17,7 @@
 ## 功能概述
 GetByTicker命令用于通过代币的Ticker符号（例如 $atom）查找对应的Atomical信息。它首先查找Atomical ID，然后获取完整的Atomical数据。
 
-![get-by-ticker-command](../_resources/get-by-ticker-command.png)
+![get-by-ticker-command](/images/get-by-ticker-command.png)
 
 ## 工作流程
 1. 初始查询
@@ -83,7 +83,7 @@ try {
 ## 功能概述
 GetByRealm命令帮助你通过Realm名称查找Atomical信息。想象它像是一个域名查找工具，输入域名（Realm），得到完整的信息。
 
-![get-by-realm-command](../_resources/get-by-realm-command.png)
+![get-by-realm-command](/images/get-by-realm-command.png)
 
 ## 工作流程
 1. Realm查询
@@ -137,7 +137,7 @@ console.log('Realm信息:', result.data);
 ## 功能概述
 Container查询让你能通过Container名称（例如 #gaming）找到相关的Atomical信息。它就像一个文件夹查找系统，你给它一个名称，它返回所有相关信息。
 
-![get-by-container-command](../_resources/get-by-container-command.png) 
+![get-by-container-command](/images/get-by-container-command.png) 
 
 ## 工作流程
 1. 名称处理
@@ -208,7 +208,7 @@ await queryContainer('#gaming');
 ## 功能概述
 GetAtomicalsAddress命令用于查询特定地址的原子化信息，包括地址余额，原子化资产，以及地址历史等信息。
 
-![get-atomicals-address-command](../_resources/get-atomicals-address-command.png)
+![get-atomicals-address-command](/images/get-atomicals-address-command.png)
 
 ## 工作流程
 1. 地址转换：把比特币地址转换为scripthash
@@ -238,4 +238,3 @@ async function checkAddressAtomicals(address: string) {
     console.error('查询出错:', error);
   }
 }                                                                                                                                                              
-```

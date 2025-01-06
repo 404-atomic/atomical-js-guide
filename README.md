@@ -1,5 +1,5 @@
 # Atomicals-js 文档中心
-![Atomical-js代码库结构图](Atomical-js代码库结构图.png)
+![Atomical-js代码库结构图](images/Atomical-js代码库结构图.png)
 
 ### 核心文档
 [基础架构](./nav.md)
@@ -31,6 +31,13 @@ Atomicals-js 是一个用于在比特币网络上创建和管理数字资产的 
   }
 }
 ```
+
+## 文档结构
+/
+├── commands/           // 命令实现文档
+├── utils/             // 工具函数文档
+├── images/            // 文档图片
+└── nav.md            // 导航文件
 
 ## 开发环境配置
 
